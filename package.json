@@ -1,0 +1,24 @@
+{
+  "name": "philcady.com",
+  "version": "1.0.0",
+  "description": "Portfolio website to showcase my web work.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/philcady/portfolio-site.git"
+  },
+  "keywords": [
+    "portfolio",
+    "web",
+    "development"
+  ],
+  "author": "Phil Cady",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/philcady/portfolio-site/issues"
+  },
+  "homepage": "https://github.com/philcady/portfolio-site#readme"
+}
