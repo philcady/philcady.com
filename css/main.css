@@ -22,9 +22,15 @@ body {
 }
 
 .sidebar li {
-	border-bottom: 1px solid #ddd;
+	border-bottom: 1px solid #881303;
 	background: url(/assets/images/triangle_sm.png) no-repeat 154px 29px;
     background-size: 5px;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    color: red;
+    background-color: transparent;
 }
 
 .sidebar a {
