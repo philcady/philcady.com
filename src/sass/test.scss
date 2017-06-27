@@ -1,0 +1,50 @@
+/*
+*  site specific styles
+*
+* Table of contents
+/*------------------------------------------------------------*/
+/*
+- Reset
+- Content
+- Buttons
+- Forms
+- Lists
+- Code
+- Tables
+- Spacing
+- Utilities
+- Clearing
+- Media Queries
+
+*/
+/* ---- Reset ------------------------------------------------*/
+textarea,
+input,
+button,
+div,
+a {
+  outline: none;
+}
+
+
+/* ---- Content ------------------------------------------ */
+
+body {
+	text-align: center;
+	background-color: salmon;
+}
+
+h1, h2 {
+	text-shadow: 0 5px 9px rgba(150, 150, 150, 1);
+	color: aliceblue;
+	font-size: 4.5em;
+    font-weight: 900;
+}
+
+main {
+	background: url(../images/screenshot.png) no-repeat;
+	background-size: cover;
+	min-height: 75vh;
+	padding: 20vh 0 0 ;
+
+}

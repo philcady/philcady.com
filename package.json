@@ -20,5 +20,19 @@
   "bugs": {
     "url": "https://github.com/philcady/portfolio-site/issues"
   },
-  "homepage": "https://github.com/philcady/portfolio-site#readme"
+  "homepage": "https://github.com/philcady/portfolio-site#readme",
+  "dependencies": {
+    "less": "^2.7.2",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.12",
+    "browsersync": "0.0.1-security",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-dest": "^0.2.3",
+    "gulp-imagemin": "^3.3.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.0"
+  }
 }
