@@ -39,7 +39,7 @@ gulp.task('browserSync', function(){
 	})
 });
 
-gulp.task('watch', ['browserSync', 'css'], function(){
+gulp.task('watch', ['browserSync', 'css', 'images'], function(){
 	gulp.watch('src/sass/**/*.scss', ['css']);
 	gulp.watch('src/*.html', ['copy']);
 });

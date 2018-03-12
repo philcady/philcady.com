@@ -1,0 +1,81 @@
+/* ---- Reset ------------------------------------------------*/
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: normal; }
+
+ul {
+  list-style: none; }
+
+img, video, embed, object {
+  max-width: 100%; }
+
+img {
+  vertical-align: middle; }
+
+label,
+button {
+  cursor: pointer; }
+
+textarea,
+input,
+button,
+div,
+a {
+  outline: none; }
+
+.clearfix::before, .clearfix::after {
+  content: "";
+  display: table; }
+
+.clearfix::after {
+  clear: both; }
+
+header {
+  float: left; }
+  header a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.75rem;
+    font-weight: 100; }
+    header a span {
+      color: #ccc; }
+  header h5 {
+    color: #ccc;
+    font-weight: 100;
+    font-style: italic;
+    line-height: .5rem;
+    margin-top: 10px; }
+
+nav {
+  float: right; }
+
+/* ---- Content ------------------------------------------ */
+body {
+  background: #000 url(../images/desktop_bkg.jpg) no-repeat;
+  background-size: contain;
+  font-family: 'Lato', sans-serif; }
+
+h1, h2 {
+  font-size: 4.5em;
+  font-weight: 900; }
+
+#container {
+  position: relative; }
+
+#resizable {
+  width: 55vw;
+  height: 100vh;
+  background-color: #000;
+  opacity: .65; }
+
+.ui-resizable {
+  border-right: 1px solid #ccc; }
+
+/*# sourceMappingURL=maps/styles.css.map */

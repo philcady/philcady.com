@@ -1,0 +1,34 @@
+//
+// General styles
+//
+
+
+
+/* ---- Content ------------------------------------------ */
+
+body {
+	background:#000 url(../images/desktop_bkg.jpg) no-repeat;
+	background-size: contain;
+	font-family: 'Lato', sans-serif;
+}
+
+h1, h2 {
+	font-size: 4.5em;
+    font-weight: 900;
+}
+
+#container {
+	position: relative;
+
+}
+
+
+
+#resizable { 
+	width: 55vw; 
+	height: 100vh;
+	background-color: #000;
+	opacity:.65;
+}
+
+.ui-resizable { border-right: 1px solid #ccc; }
