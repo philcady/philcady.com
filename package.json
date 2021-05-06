@@ -23,7 +23,7 @@
   "homepage": "https://github.com/philcady/portfolio-site#readme",
   "dependencies": {
     "less": "^2.7.2",
-    "underscore": "^1.8.3"
+    "underscore": "^1.12.1"
   },
   "devDependencies": {
     "browser-sync": "^2.18.12",
